@@ -1,0 +1,3 @@
+racineCarre(X,Y):- Y is sqrt(Xsinus(X, Y):- Y is sin(X).
+cos : cosinus(X, Y):- Y is cos(X).
+tan : tangent(X, Y):- Y is tan(X).

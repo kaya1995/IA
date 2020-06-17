@@ -1,0 +1,13 @@
+father(john,paul).
+father(jim,andrew).
+father(john,bill).
+brother(X,Y):-
+    father(X,Y).
+cousin(X,Y):-
+    father(X,Z),
+    father(Y,Z).
+grandf(X, Y ):-
+    father(X,Z),
+    father(Z, Y ).
+
+
